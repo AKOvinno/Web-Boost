@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
+body {
+  font-family: "Ephesis", cursive;
+}
+h1 {
+  font-size: 20px;
+  color: rgb(6, 138, 138);
+}
+
+p {
+  font-size: 16px;
+  line-height: 2;
+  color: darkblue;
+}
+
+button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+}
+
+.outer > p {
+  font-size: 18px;
+  color: red;
+}
+
+[disabled] {
+  background-color: darkblue;
+}
