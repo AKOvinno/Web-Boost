@@ -1,14 +1,19 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
+/* It will change the font of all things
 body {
   font-family: "Ephesis", cursive;
 } */
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
 
-/* We use dot(.) for selecting class */
 .container {
   width: 600px;
-  margin: 30px auto;
-  background-color: gainsboro;
+  margin: 20px auto;
+  background: #ddd;
   padding: 20px;
+}
+
+.title {
+  font-family: "Ephesis", cursive;
+  font-size: 36px;
 }
 
 .para {
@@ -17,9 +22,8 @@ body {
   line-height: 1.5;
 }
 
-/* first is up-down and second is left right */
 .btn {
-  padding: 5px, 10px;
+  padding: 5px 10px;
   text-transform: uppercase;
 }
 
@@ -32,3 +36,50 @@ body {
   background: gray;
   color: black;
 }
+
+/* 
+h1 {
+  
+  font-size: 40px;
+  color: aqua;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: blue;
+}
+
+button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+} */
+
+/* These following classes and ids is not applicable */
+/* If you want to select class then dot(.) */
+/* .para {
+  color: black;
+} */
+
+/* If you want to select id then slash(#) */
+/* #first-para {
+  color: gray;
+} */
+
+/* If we want to apply same style in multiple class or ids .para,
+#first-para {
+  color: gray;
+  font-size: 20px;
+} */
+
+/* It will specify the child of the div not the grand child in the internal div */
+/* .outer > p {
+  color: blue;
+}
+
+[disabled] {
+  background: gray;
+} */
